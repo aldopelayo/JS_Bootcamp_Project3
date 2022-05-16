@@ -9,12 +9,17 @@ var special = [",",".","/",";","'","[","]","-","=","!","@","#","$","%","^","&","
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
+    
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
 
+
 }
 
+function generatePassword (){
+  console.log("password generated");
+}
 
 let passwordlength = window.prompt("choose length of password (8 to 124)",);
 var num1 = parseInt(passwordlength);
@@ -39,6 +44,8 @@ specialChoice = confirm("would you like special characters to be included?")
 if(true) {
   console.log(specialChoice)
 };
+
+
 
 
 // Add event listener to generate button
