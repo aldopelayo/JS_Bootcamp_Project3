@@ -5,18 +5,8 @@ var generateBtn = document.querySelector("#generate");
     var lowchar = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
     var upchar = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
     var special = [",",".","/",";","'","[","]","-","=","!","@","#","$","%","^","&","*","(",")"];
-
 //available items
-const Userinput = (Length,HasNumbers,HasUpper,HasLower,HasSpecial) =>{
-  const availableItems =[
 
-    ...(HasNumbers ? numeric : []),
-    ...(HasUpper ? upchar : []),
-    ...(HasLower ? lowchar: []),
-    ...(HasSpecial ? special: [])
-  ];
-console.log(availableItems)
-}
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
@@ -26,7 +16,9 @@ function writePassword() {
   passwordText.value = password;
 
 
+
 }
+
 
 
 function generatePassword (){
@@ -62,7 +54,28 @@ specialChoice = confirm("would you like special characters to be included?")
 if(true) {
   console.log(specialChoice)
 };
-  return //generated password here
+const Userinput = (num1,HasNumbers,HasUpper,HasLower,HasSpecial) =>{
+  const availableItems =[
+
+    ...(HasNumbers ? numeric : []),
+    ...(HasUpper ? upchar : []),
+    ...(HasLower ? lowchar: []),
+    ...(HasSpecial ? special: [])
+      
+  ];
+
+
+
+for(i=0;i<num1; i++){
+  const RandomValues = Math.floor(math.random()*availableItems.num1);
+  password+=availableItems[RandomValues];
+}
+console.log(availableItems);
+
+
+
+}
+  return 
 }
 
 
