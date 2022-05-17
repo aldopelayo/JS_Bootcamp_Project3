@@ -1,6 +1,9 @@
 # 0![Screenshot (15)](https://user-images.githubusercontent.com/101620112/168710142-67752c6d-3db7-4410-9f89-2629989ccdfa.png)
+https://aldopelayo.github.io/JS_Bootcamp_Project3/
+
 description:
 To meet demands I made an array with all the characters the user would like in their own respective array (numbers,special,UpperCase,LowerCase). after creating these arrays I needed a questionare that would take all the users prefrences for their desired password. all of the questionares were put in a boolean array with one numeric array. these Collected user inputs were put into a Math.Random calculation and used the desired password length to make it as long or short as the user would like. the results are pulled and displayed in the text area of the password!
+
 3 JavaScript: Password Generator
 
 ## Your Task
