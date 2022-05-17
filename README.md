@@ -1,4 +1,5 @@
-# 03 JavaScript: Password Generator
+# 0![Screenshot (15)](https://user-images.githubusercontent.com/101620112/168710142-67752c6d-3db7-4410-9f89-2629989ccdfa.png)
+3 JavaScript: Password Generator
 
 ## Your Task
 
@@ -97,4 +98,6 @@ You are required to submit the following for review:
 * The URL of the GitHub repository, with a unique name and a readme describing the project.
 
 - - -
+https://aldopelayo.github.io/JS_Bootcamp_Project3/
+
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
